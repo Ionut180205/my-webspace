@@ -1,9 +1,9 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
+import { useNavigate } from 'react-router-dom'; 
 import HomeImage from '../assets/pozaCV.jpg';
 
 const Home = () => {
-  const navigate = useNavigate(); // Initialize the navigate function
+  const navigate = useNavigate(); 
 
   return (
     <div className='bg-black text-white text-center py-16 flex flex-col justify-center items-center'>

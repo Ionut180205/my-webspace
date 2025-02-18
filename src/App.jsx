@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
-import Resume from './components/Resume'; // Ensure the path is correct
+import Resume from './components/Resume'; 
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <div>
         
         <Routes>
-          <Route path='/' element={<><Navbar /><Home /><About /><Projects /></>} />
-          <Route path='/resume' element={<Resume />} /> {/* Ensure the path matches */}
+          <Route path='/' element={<><Home /><About /><Projects /></>} />
+          <Route path='/resume' element={<Resume />} /> 
         </Routes>
       </div>
     </Router>

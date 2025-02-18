@@ -9,7 +9,7 @@ const About = () => {
     <div className='bg-black text-white py-20 px-6'>
       <div className='max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center'>
 
-        <div className='space-y-4 text-xl font-semibold'>
+        <div className='mt-6 space-y-4 text-xl font-semibold'>
 
           <p className='flex items-center gap-2'><FaMapMarkerAlt /> Arad/Timisoara, România</p>
           <p className='flex items-center gap-2'><FaPhone /> 0755 670 957</p>
@@ -19,6 +19,8 @@ const About = () => {
             <a href='https://www.linkedin.com/in/ioan-cioarsa-975433310/' target='_blank' rel='noopener noreferrer'> <FaLinkedin /> </a>
             <a href='https://github.com/Ionut180205' target='_blank' rel='noopener noreferrer'><FaGithub /></a>
           </div>
+
+          
           
         </div>
         
@@ -55,6 +57,8 @@ const About = () => {
 
 
         </div>
+
+        
 
       </div>
     </div>

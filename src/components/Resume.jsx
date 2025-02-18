@@ -5,7 +5,7 @@ const Resume = () => {
     <div className="bg-gradient-to-r from-black via-gray-900 to-black text-white min-h-screen p-8">
       
 
-      {/* About Me Section */}
+      
       <section className="mb-16">
         <h2 className="text-3xl font-semibold mb-6 text-center">About Me</h2>
         <div className="max-w-4xl mx-auto px-4 sm:px-8">
@@ -14,10 +14,29 @@ const Resume = () => {
           I enjoy working in teams, not just for the knowledge sharing, but also for the fun and collaboration.
           Whenever I face challenges, I rely on official resources for research to find the best solutions.
           </p>
+          <div className='mt-6 flex justify-between text-center'>
+                        <div>
+                            <h3 className='text 2xl font-bold text-transparent bg-clip-text bg-gradient-to-r
+                            from-green-400 to-blue-500'>3+</h3>
+                            <p>Years of Freelance Experience</p>
+                        </div>
+
+                        <div>
+                            <h3 className='text 2xl font-bold text-transparent bg-clip-text bg-gradient-to-r
+                            from-green-400 to-blue-500'>20+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+
+                        <div>
+                            <h3 className='text 2xl font-bold text-transparent bg-clip-text bg-gradient-to-r
+                            from-green-400 to-blue-500'>10+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
         </div>
       </section>
 
-      {/* Education Section */}
+      
       <section className="bg-gray-800 py-12 mb-16">
         <h2 className="text-3xl font-semibold mb-6 text-center">Education</h2>
         <div className="max-w-4xl mx-auto px-4 sm:px-8">
