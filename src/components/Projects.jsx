@@ -1,5 +1,5 @@
 import React from 'react';
-import projectImage1 from '../assets/My-dash-image.png'
+import projectImage1 from '../assets/my-dash-image.png'
 import projectImage2 from '../assets/picasso1.jpg'
 import projectImage3 from '../assets/my-portofolio-image.png'
 const projects = [
